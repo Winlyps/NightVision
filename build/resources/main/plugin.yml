@@ -2,3 +2,7 @@ name: NightVision
 version: '1.0.0'
 main: winlyps.nightvision.VisionNight
 api-version: '1.20'
+commands:
+  gamma:
+    description: Toggle night vision
+    usage: /<command>
