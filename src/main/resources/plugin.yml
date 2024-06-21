@@ -1,7 +1,7 @@
 name: NightVision
 version: '${version}'
 main: winlyps.nightvision.VisionNight
-api-version: '1.20'
+api-version: '1.16'
 commands:
   gamma:
     description: Toggle night vision

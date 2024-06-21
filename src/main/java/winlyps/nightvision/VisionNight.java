@@ -43,10 +43,10 @@ public final class VisionNight extends JavaPlugin implements CommandExecutor, Li
             if (cmd.getName().equalsIgnoreCase("gamma")) {
                 if (player.hasPotionEffect(PotionEffectType.NIGHT_VISION)) {
                     player.removePotionEffect(PotionEffectType.NIGHT_VISION);
-                    player.sendMessage(ChatColor.YELLOW + "Widok nocny wyłączony.");
+                    player.sendMessage(ChatColor.YELLOW + "Night vision enabled.");
                 } else {
                     giveNightVision(player);
-                    player.sendMessage(ChatColor.YELLOW + "Widok nocny włączony.");
+                    player.sendMessage(ChatColor.YELLOW + "Night vision disabled.");
                 }
                 return true;
             }
